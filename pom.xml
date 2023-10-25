@@ -10,24 +10,24 @@
 
     <repositories>
         <repository>
-            <id>com.e-iceblue</id>
-            <name>e-iceblue</name>
-            <url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
+            <id>GroupDocs Artifact Repository</id>
+            <name>GroupDocs Artifact Repository</name>
+            <url>https://releases.groupdocs.com/java/repo/</url>
         </repository>
     </repositories>
+
+
     <dependencies>
         <dependency>
-            <groupId>e-iceblue</groupId>
-            <artifactId>spire.xls.free</artifactId>
-            <version>5.1.0</version>
+            <groupId>com.groupdocs</groupId>
+            <artifactId>groupdocs-conversion</artifactId>
+            <version>22.11</version>
         </dependency>
     </dependencies>
 
-
-
     <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
